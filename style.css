@@ -71,12 +71,26 @@ button:active{
 .twitter-button:hover{
   color: #38a1f3;
 }
+ footer{
+  font-size: 18px;
+ 
+} 
+footer a{
+  color: #000000;
+}
+
 @media screen and (max-width:1000px) {
   .quote-container {
     margin: auto 10px;
   }
 
   .quote-text {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
+  .quote-author{
+    font-size: 2rem;
+  }
+  footer{
+    font-size:16px;
+}
 }
