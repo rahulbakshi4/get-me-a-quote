@@ -73,6 +73,7 @@ button:active{
 }
  footer{
   font-size: 18px;
+  margin-top: 10px;
  
 } 
 footer a{
@@ -91,6 +92,7 @@ footer a{
     font-size: 2rem;
   }
   footer{
+   
     font-size:16px;
 }
 }
