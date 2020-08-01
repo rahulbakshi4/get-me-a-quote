@@ -5,4 +5,6 @@
 * Generating a new quote on every click on _new quote button_
 * Tweet any quote to your twitter account
 
+_API Used:_ [Forismatic](https://forismatic.com/en/api/) 
+
 [Live Link](https://rahulbakshi4.github.io/get-me-a-quote/)
