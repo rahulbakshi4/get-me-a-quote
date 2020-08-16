@@ -26,7 +26,7 @@ body {
 }
 
 .quote-text {
-  font-size: 3rem;
+  font-size: 2.75rem;
 }
 
 .long-quote {
@@ -98,12 +98,17 @@ footer a{
   .quote-container {
     margin: auto 10px;
   }
-
+  .fa-quote-left {
+    font-size: 2.25rem;
+  }
   .quote-text {
-    font-size: 2rem;
+    font-size: 1.5rem;
+  }
+  .long-quote {
+    font-size: 1.25rem;
   }
   .quote-author{
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
   footer{
     font-size:16px;
