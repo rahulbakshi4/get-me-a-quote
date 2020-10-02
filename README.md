@@ -1,5 +1,5 @@
 # get-me-a-quote
-**_Get Me A Quote_** is a simple and minimal random quote generator website.  
+Get Me A Quote is a simple and minimal random quote generator website.  
 
 **Functionalities:**  
 * Generating a new quote on every click on _new quote button_
