@@ -20,25 +20,24 @@ function complete(){
 
 async function getQuote(){
     loading();
-    const proxyUrl = 'https://fathomless-beyond-19635.herokuapp.com/'
-    const apiUrl = 'http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json';
+    const apiUrl = "https://api.quotable.io/random";
     try{
-        const response = await fetch(proxyUrl + apiUrl);
+        const response = await fetch(apiUrl);
         const data = await response.json();
 
-        if(data.quoteAuthor === ''){
+        if(data.author === ''){
             authorText.innerText = 'Unknown';
         } else{
-            authorText.innerText = data.quoteAuthor;
+            authorText.innerText = data.author;
         }
 
-        if(data.quoteText.length > 120){
+        if(data.content.length > 120){
             quoteText.classList.add('long-quote');
         }else{
             quoteText.classList.remove('long-quote');
         }
         
-        quoteText.innerText = data.quoteText;
+        quoteText.innerText = data.content;
          
         complete();
     }catch(error){
